@@ -1,0 +1,29 @@
+
+.student-card {
+    border: 1px solid #cccccc;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .student-card img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .student-card h3 {
+    margin: 0;
+  }
+  
+  .student-card button {
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  
+  .student-card.expanded {
+    background-color: #7e5050;
+  }
+  
